@@ -6,7 +6,7 @@
     android:gravity="center"
     tools:context="com.hugh.linechart.Main2Activity">
 
-    <com.hugh.linechart.BrokenLineChart
+    <com.hugh.linechart.DynamicLineChart
         android:layout_width="match_parent"
         android:layout_height="200dp" />
 
