@@ -127,10 +127,10 @@ public class AbsRenderer {
             canvas.drawLine(axisX.getStartX(), axisX.getStartY(), axisX.getStopX(), axisX.getStopY(), coordPaint);
 
             //Y坐标轴
-            /*coordPaint.setColor(axisY.getAxisColor());
+            coordPaint.setColor(axisY.getAxisColor());
             coordPaint.setStrokeWidth(LeafUtil.dp2px(mContext, axisY.getAxisWidth()));
             canvas.drawLine(axisY.getStartX(),
-                    axisY.getStartY(), axisY.getStopX(), axisY.getStopY(), coordPaint);*/
+                    axisY.getStartY(), axisY.getStopX(), axisY.getStopY(), coordPaint);
         }
     }
 
@@ -162,7 +162,7 @@ public class AbsRenderer {
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
             /////// Y 轴
-            /*coordPaint.setColor(axisY.getTextColor());
+            coordPaint.setColor(axisY.getTextColor());
             coordPaint.setTextSize(LeafUtil.sp2px(mContext, axisY.getTextSize()));
 
             List<AxisValue> valuesY = axisY.getValues();
@@ -172,7 +172,7 @@ public class AbsRenderer {
                     float pointx = value.getPointX() - 1.1f * textW;
                     canvas.drawText(value.getLabel(), pointx, value.getPointY(), coordPaint);
                 }
-            }*/
+            }
         }
     }
 
